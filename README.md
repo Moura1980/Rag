@@ -19,3 +19,7 @@ Os principais hiperparâmetros utilizados foram:
 `ef_construction`: define quantos candidatos são analisados durante a construção do índice. Valores maiores produzem um grafo mais preciso, porém aumentam o tempo de indexação e o uso de memória durante a construção.
 
 Em comparação ao KNN exato, o HNSW consome mais memória devido à estrutura adicional do grafo, mas oferece buscas muito mais rápidas e escaláveis para grandes volumes de embeddings.
+
+Declaração
+
+Partes deste laboratório foram geradas/complementadas com IA, revisadas e validadas por Enzo Moura.
