@@ -3,11 +3,10 @@ Como Executar
 1. Instalar dependências<br>
 bashpip install -r requirements.txt
 
-2. Definir a chave da API Anthropic<br>
-bashexport ANTHROPIC_API_KEY="sk-ant-..."
+2. Rodar o pipeline
 
 3. Rodar o pipeline<br>
-bashpython rag.py
+python rag_local.py
 
 ## HNSW e Consumo de Memória
 
