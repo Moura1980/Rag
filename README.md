@@ -8,6 +8,10 @@ bashpip install -r requirements.txt
 3. Rodar o pipeline<br>
 python rag_local.py
 
+Declaração
+
+Partes deste laboratório foram geradas/complementadas com IA, revisadas e validadas por Enzo Moura.
+
 ## HNSW e Consumo de Memória
 
 O índice HNSW (Hierarchical Navigable Small World) utiliza estruturas de grafos para acelerar a busca vetorial aproximada. Diferente do KNN exato, que compara a consulta com todos os vetores armazenados, o HNSW cria conexões entre vetores vizinhos para reduzir o número de comparações durante a busca.
@@ -19,7 +23,3 @@ Os principais hiperparâmetros utilizados foram:
 `ef_construction`: define quantos candidatos são analisados durante a construção do índice. Valores maiores produzem um grafo mais preciso, porém aumentam o tempo de indexação e o uso de memória durante a construção.
 
 Em comparação ao KNN exato, o HNSW consome mais memória devido à estrutura adicional do grafo, mas oferece buscas muito mais rápidas e escaláveis para grandes volumes de embeddings.
-
-Declaração
-
-Partes deste laboratório foram geradas/complementadas com IA, revisadas e validadas por Enzo Moura.
